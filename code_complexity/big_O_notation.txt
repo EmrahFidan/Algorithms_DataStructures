@@ -1,0 +1,25 @@
+Diyelim ki sen ve arkadaşların bir oyun oynuyorsunuz ve oyunun kuralı, kutuları sırayla açıp içindeki oyuncakları bulmak. Her kutunun üzerinde yazan sayı, kutunun içindeki oyuncak sayısını gösteriyor. Siz ve arkadaşlarınız bu oyunu oynarken, kutuları açmak ve oyuncakları bulmak için harcadığınız zamana dikkat ediyoruz.
+
+Big O Notasyonu, bu oyunu ne kadar hızlı oynayabileceğimizi belirtmek için kullanılan bir sistemdir. Ancak, bunun için sayılar yerine büyük harf "O" ve bazen parantez içinde ifadeler kullanacağız.
+
+O(1) - Sabit Zaman: Diyelim ki, kutuların üzerine doğrudan bakarak, içindeki oyuncak sayısını hemen görebiliyorsunuz. Bu durumda, kutudaki oyuncak sayısı ne olursa olsun, sadece bir saniye içinde kutuyu açıp oyuncakları bulabilirsiniz. Bu durumda, "O(1) zamanda kutuyu açmak ve oyuncakları bulmak" diyebiliriz.
+
+O(n) - Lineer Zaman: Diyelim ki, kutuların üzerinde sayıları tek tek kontrol ederek, içlerindeki oyuncak sayısını buluyorsunuz. Mesela, kutunun üzerinde "3" yazıyorsa, kutuyu açıp içindeki 3 oyuncak bulmak için 3 saniye harcıyorsunuz. Eğer kutunun üzerinde "5" yazıyorsa, 5 saniye harcıyorsunuz. Bu durumda, kutudaki oyuncak sayısı kadar zaman harcadığınız için "O(n) zamanda kutuyu açmak ve oyuncakları bulmak" diyebiliriz.
+
+O(n^2) - Karesel Zaman: Diyelim ki, kutuları tekrar tekrar kontrol ediyorsunuz ve her seferinde kutunun üzerinde yazan sayı kadar kutu daha açıyorsunuz. Yani, ilk kutuyu açıp içindeki oyuncakları buluyorsunuz, sonra ikinci kutuyu açıp onun içindeki kutuları kontrol ediyorsunuz ve bu şekilde devam ediyorsunuz. Bu durumda, kutudaki oyuncak sayısı kadar zaman harcadığınız gibi, kutudaki oyuncak sayısı kadar kutu daha açtığınız için "O(n^2) zamanda kutuyu açmak ve oyuncakları bulmak" diyebiliriz.
+
+Kısacası, Big O Notasyonu, bir algoritmanın işlem süresini ve veri boyutuyla nasıl değiştiğini ifade etmek için kullanılır. O(1) en hızlı, O(n) biraz daha yavaş ve O(n^2) ise daha yavaşdır. O(n) algoritma, O(n^2)'den daha hızlıdır, çünkü veri boyutu arttıkça işlem süresi daha yavaş artar. Bu nedenle, algoritmaları değerlendirirken Big O Notasyonu önemli bir kavramdır.
+
+---------------------------------------------------------------------------------------------------------
+
+1 -> constant
+log (n) -> logarithmic
+n -> linear 
+n * log(n) -> Log Linear 
+n^2 -> Quadratic
+n'3 -> Cubic 
+2^n -> Exponential
+n ! -> Factorial 
+
+---------------------------------------------------------------------------------------------------------
+

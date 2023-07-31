@@ -1,0 +1,23 @@
+Açıklamak için bir örnek hikaye kullanalım:
+
+Hikaye:
+
+Bir çiftçi olan Ali'nin bahçesinde çok sayıda elma ağacı var. Her sabah, elma toplamak için bahçesine gider. Ancak, elma toplamak ne kadar zaman alıyor?
+
+Big-O (Büyük O):
+Big-O, bahçedeki elma ağaçlarından topladığı en fazla elma sayısını ifade eder. Diyelim ki Ali, bahçesinde 10 elma ağacı olduğunu düşünelim. Elma toplamak için ağaçlara tek tek bakıp elmayı almak zorundaysa ve bu işlem her ağaç için aynı sürede tamamlanıyorsa, o zaman bahçedeki en fazla 10 elmayı toplamak için Big-O(10) demek doğru olur. Yani Big-O, Ali'nin bahçesindeki elma ağaçlarının sayısına bağlı olarak en fazla ne kadar elma toplayabileceğini gösterir.
+
+Omega:
+Omega, Ali'nin bahçesinde topladığı en az elma sayısını ifade eder. Diyelim ki Ali, bahçesindeki 10 elma ağacının her birinden en az bir elma almak için çaba sarf ediyorsa, o zaman Omega(10) deriz. Yani Omega, Ali'nin bahçesindeki elma ağaçlarının sayısına bağlı olarak en az ne kadar elma toplayabileceğini gösterir.
+
+Theta:
+Theta, Big-O ve Omega'nın aynı olduğu durumu ifade eder. Eğer Ali, her sabah bahçesine gittiğinde, elma toplamak için bazen daha hızlı bazen daha yavaş çalışıyorsa, ancak genel olarak aynı miktarda elma topluyorsa, o zaman Theta(10) deriz. Yani Theta, Ali'nin bahçesindeki elma ağaçlarının sayısına bağlı olarak genel olarak ne kadar elma toplayacağını gösterir.
+
+Özetle, Big-O, bahçedeki en fazla elma sayısını ifade ederken, Omega en az elma sayısını ifade eder ve Theta ise Big-O ve Omega'nın aynı olduğu durumu ifade eder.
+
+---------------------------------------------------------------------------------------------------------
+
+• Big O: yazdığımız kodun en kotu durumda nasil çalıştığını test etmek icin
+• Omega: yazdığımız kodun en iyi durumda nasil çalıştığını test etmek için 
+
+-> Kodunu en kötü duruma göre ayarlamamız lazım. 

@@ -1,0 +1,14 @@
+Şimdi, kodu yazarken, amacımız bilgisayarın yapması gereken işleri en etkili ve anlaşılır şekilde ifade etmektir. "Code Complexity" yani "Kod Karmaşıklığı" dediğimiz şey ise, kodun ne kadar karışık ve anlaşılması zor olduğudur.
+
+Haydi basit bir örnekle açıklayalım. Düşün ki, bir oyun yapmak istiyorsun ve oyuncunun puanını hesaplamak için kod yazman gerekiyor. Eğer bu kod sadece oyuncunun elde ettiği puanları topluyorsa ve birkaç basit kural içeriyorsa, o zaman kodumuz düşük karmaşıklığa sahiptir. 
+
+Ancak, düşün ki oyunun daha karmaşık hale gelmesi için yeni özellikler eklemek istiyorsun ve bunları kodda ifade etmek zorunda kalıyorsun. Eğer yeni eklediğin kod, anlaşılması zor, karışık ve karmaşık hale gelirse, işte bu durumda kodun "Code Complexity" yani "Kod Karmaşıklığı" artar.
+
+Neden bu önemli? Çünkü karmaşık kodlar, hem yazarken daha çok zaman alır hem de ileride hatayı bulmak ve düzeltmek daha zor olabilir. Aynı zamanda, başka yazılımcılarla birlikte çalışırken, kodun anlaşılabilir olması önemlidir, böylece birbirimizle daha iyi işbirliği yapabiliriz.Sonuç olarak, kod karmaşıklığını azaltmak, kodun daha kolay anlaşılabilir ve bakımının daha rahat olmasını sağlar.
+
+----------------------------------------------------------------        
+
+-> İş dünyasında algoritmanın iyi olması zaman ile ilişkilendirilir. 
+-> Kod ne kadar hızlı çalışıyorsa o kadar iydir.  
+
+-> İkinci olarak bellekte kapladığı alana bakılır. 
