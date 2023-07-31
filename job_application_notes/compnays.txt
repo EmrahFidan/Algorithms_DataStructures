@@ -1,0 +1,29 @@
+Şirketler üçe ayrılır:
+---------------------------------
+1- Büyük 4'lü 
+2- Orta Boyutlu 
+3- Küçük Boyutlu 
+
+----------------------------------------------------------------------------------------
+
+-> Google, Apple, Microsoft, Facebook 
+-> DÜnya sıralmaasında en iyi 10 - 20 üniversiteden eleman alırlar. 
+-> Yüksek maaş - çok sayıda başvvuru bu yüzden network önemli - Kurumsal Şirketler
+
+----------------------------------------------------------------------------------------
+
+-> Yerel şirketler olarak adlandırılırlar. 
+-> Orta seviye geliri lan kurumsal firmalardır. 
+-> Medium, reddit gibi 
+-> Hem iyi bir CV ile başvuru isterler hemde Cv'nizde gayet iyi durur. 
+
+----------------------------------------------------------------------------------------
+
+-> Yerel şirketler, Startup'lar 
+-> Çalışan sayısı 1-20 arası değişir 
+-> Bu tarz şirketler %94 olasılıkla aşarısız olurlar 
+-> Çok çalıştırırlar ve çok öğretirler
+-> Çalışan kaybetmek istemezler
+-> Fazla kurumsal değildir, kararlar anlık değişebilir. 
+-> Destekli startup'ların normalden farkı iyi maaş verirler. 
+

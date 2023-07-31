@@ -1,0 +1,59 @@
+İş Türleri :
+
+1- Infrastructure (altyapı)
+2- Backend
+3- Frontend
+4- Native
+5- Bilim ve Teori 
+6- Donanım
+
+----------------------------------------------------------
+
+Infrastructure (altyapı)
+
+- Database Yönetimi 
+- Sistem adminliği 
+- Network Engineering
+
+----------------------------------------------------------          
+
+Backend
+
+- Backend app geliştirme
+- Software architects 
+- API design 
+- Database Yönetimi
+- Full Stack Engineer 
+
+----------------------------------------------------------
+
+Frontend
+
+- Front and designers and web Development
+- Full Stack Engineer
+
+----------------------------------------------------------
+
+Native 
+
+- IOS - Android special application
+
+----------------------------------------------------------
+
+Bilim ve Teori 
+
+- Akademisyenler 
+- Data Analyst 
+- ML Engineer 
+- Data Engineer
+- Data Scientist 
+
+----------------------------------------------------------
+
+Donanım
+
+- Embedded Sistemler 
+- Chip Design 
+- Game Development 
+- 3D printing
+
