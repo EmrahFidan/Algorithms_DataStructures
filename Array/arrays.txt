@@ -1,0 +1,12 @@
+Arrays
+------------------------------------------------------------------------------------------------
+Bir sürü oyuncak arabayı düşün, hepsi farklı renkte ve boyutta olsun. Şimdi bu arabaları düzenlemek için özel bir yere ihtiyacın olduğunu düşün. İşte bu yeri hayal et, adını da 'Garaj' koyalım.
+
+Şimdi, farklı arabaları garajına yerleştirebilirsin, örneğin en sevdiğin mavi arabayı bir bölüme, kırmızı arabayı başka bir bölüme ve diğer renkteki arabaları da farklı bölmelere koyabilirsin. Her bölmede farklı bir renkte ve boyutta araba bulunur.
+
+İşte 'Arrays' da tam olarak böyle düşünülebilir. Bir dizi gibi düşünebilirsin. Bir dizi, farklı verileri düzenlemene ve saklamana yardımcı olur. Veriler, birbirine benzer ya da farklı şeyler olabilir.
+
+Bir sürü veriyi bir arada saklayabilir ve onlara ihtiyacın olduğunda kullanabilirsin. Bu sayede veriler düzenli bir şekilde toplanır ve daha sonra kolayca onları kullanabilirsin.
+
+Array => higher level abstraction 
+

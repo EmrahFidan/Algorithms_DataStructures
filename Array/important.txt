@@ -1,0 +1,22 @@
+1- Dynamic Array neden önemli ? 
+
+=> Automatic resizing, boyutunun azaltılıp, arttırılabilmesi 
+
+2- Array ve Dynamic Array arasındaki fark ? 
+
+=> Array'in boyutunu başlangıçta vermek zorundayız ama Dynamic array'de boyut belirlemeye gerek yok. 
+
+3- Dynamic array avantaj , dezavantaj ?
+
+=> Advantages: 
+- Fast lookups : istediğin indexteki değeri hızlı bir şekilde görebiliyorsun 
+- resizeable size: arrayin boyutu arttırılıp, azaltılabiliyor. 
+
+=> Disadvantages:
+-  Slow worst-case appends: arrayin kapasite arttırma işlemi algoritmayı yavaş çalıştırıyor. 
+- Costly inserts and deletes : algoritmayı yavaşlatıyor. 
+
+4- Boyut nasıl arttırılıyor ?
+
+=> kapasite 2 katına çıkıyor ? 
+

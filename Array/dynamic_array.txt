@@ -1,0 +1,9 @@
+Dinamik Arraylar
+----------------------------------------------------------------
+
+Dinamik diziler, başlangıçta küçük bir oyuncak kutusu gibidir. İlk oyuncakları kutuya koyarsın, ama kutu dolarsa, daha büyük bir kutu alırsın ve tüm oyuncakları yeni kutuya taşırsın. Bu şekilde, kutu boyutunu ihtiyacına göre esnek bir şekilde değiştirebilirsin.
+
+İşte dinamik diziler de aynı prensiple çalışır. Bir dizide ilk başta belirli bir sayıda veri saklayabilirsin, ancak daha sonra daha fazla veri eklemek istersen, dizi otomatik olarak boyutunu değiştirir ve tüm verileri yeni ve daha büyük bir alana taşır.
+
+Dinamik diziler, verileri düzenli tutmana ve daha fazla veri eklediğinde her şeyin düzgün çalışmasına yardımcı olur. Böylece, her zaman ihtiyacın olan kadar yer kullanırsın ve hiçbir şeyi boşa harcamazsın.
+
