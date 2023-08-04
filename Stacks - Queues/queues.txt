@@ -1,0 +1,11 @@
+Queue => Sıra
+
+=> yemekhane sırası
+
+FIFO = Fisrt in Fisrt out 
+
+Hayal et ki oyun parkında kaydırakta oynamak için sıraya girmişsin. Diğer çocuklar da kaydırağa gitmek istiyor ve hepiniz sırayla bekliyorsunuz. İşte bu sıra, özel bir "queue" gibi.
+
+- Enqueue -> item eklemek 
+- Dequeue -> item çıkarmak 
+

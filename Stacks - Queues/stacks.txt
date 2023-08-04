@@ -1,0 +1,21 @@
+Stacks -> Yığın 
+
+=> üst üste konmuş kitap yığınını düşün
+
+Last in - First Out 
+
+-> en üsttekini almadan alttakilere erişemzsin. 
+
+Hayal edelim ki oynadığın bloklardan oluşan bir setin var. Şimdi, bu blokları koymak için özel bir kutun olsun. Bu kutu sihirli, çünkü üstten açılıp kapanabilen bir kapağı var.
+
+Bir yığın da tam olarak bu sihirli kutuya benzer. Sadece blokları kutunun içine koyabilir veya üstten çıkarabilirsin. Altta kalan bloklara ulaşamazsın, üstte olanları çıkarmadan.
+
+İşte bir bloğu kutunun dibine koyarak başlarsın. Sonra, başka bir blok onun üstüne gelir ve bunu daha fazla blokla tekrar edersin. İçine en son koyduğun blok en üstte görünen bloktur.
+
+Şimdi, bir blok çıkarmak istersen, sadece en üstteki bloku alabilirsin. En üstteki bloku çıkarmadan diğer bloklara ulaşamazsın.
+
+Bilgisayar biliminde bir yığın da tam olarak böyle çalışır.
+
+push -> stack içine eleman koymak
+pop: stack içerisinden elman almak
+top: stack2in en tepesindeki elmanları gösterme

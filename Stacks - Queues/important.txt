@@ -1,0 +1,28 @@
+1- Lİnear data structure örnekleri nelerdir ?
+
+=> Array, Stacks, Queues
+
+2- Stack hakkında kısa bilgi ? 
+
+=> Stack LIFO prensibine dayalı bir veri yapısıdır. push, pop ve top (peek) adında 3 tane main operasyonu vardır. 
+
+3- Stack big-o ?
+
+=> fast operation. All  stack operations take O(1) time. Lineer 
+
+4- Application of Stack Data structure ?
+
+=> Managing function calls, the stock span problem, arithematic expression evaluation, String parsing
+
+5- Queue'nin stack'den farkı nedir ?
+
+=> item silme sırasıdır. Çünkü queue FIFO prensibi ile çalışır. Enqueue ve Dequeue temel metodlarıdır. 
+
+6- Queue big-o ?
+
+=> fast operation. All  stack operations take O(1) time. Lineer 
+
+7- Deque ?
+
+=> Queue ve stcak karışımı gibidir. 
+    Yeni item hem front hem de Rear'dan eklenebilir ve silinebilir. 

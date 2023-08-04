@@ -1,0 +1,10 @@
+Deque -> stack - queue
+
+=> Önden ve arkadan veri ekleyebiliyorum +  önden ve arkadan veri çıkarabiliyorum
+
+Hayal edin ki büyülü bir kutu var ve bu kutu içine oyuncaklar veya şekerler gibi birçok şey koyabiliyorsunuz. Ancak bu kutu, diğer kutulardan farklı çünkü sadece bir taraftan değil, her iki taraftan da şeyler ekleyip çıkarmanıza izin veriyor. Adeta iki kapısı var - biri sol tarafta ve diğeri sağ tarafta. İşte bu, dediğimiz şey "deque"!
+
+Hadi sol taraftaki kısmı "Ön" ve sağ taraftaki kısmı "Arka" olarak adlandıralım. Oyuncakları ön taraftan ekleyebilir ve ön taraftan çıkarabilirsiniz. Aynı şekilde, oyuncakları arka taraftan ekleyebilir ve arka taraftan çıkarabilirsiniz. Adeta iki kapısı olan bir kutu gibi düşünebilirsiniz.
+
+Dequelerin harika bir özelliği var, oyuncaklarınızla farklı şeyler yapmanıza olanak tanır. İlk koyduğunuz oyuncakla oynamak istiyorsanız, onu ön taraftan çıkarırsınız. Son eklediğiniz oyuncakla oynamak istiyorsanız, onu arka taraftan çıkarırsınız.
+
