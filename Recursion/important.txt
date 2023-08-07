@@ -1,0 +1,26 @@
+# Recursion - iş mülakat
+
+1- Base case ?
+
+-> recursionda büyük problem küçük paralara bölünür, bu bölünen küçük problemmlerin temeli base case larak adlandırılır. base case recursive'yi durduran en temel parçadır. 
+
+2- Advantages of Recursion 
+
+-> kodun güzel ve zarif görünmesini sağlar 
+-> complex problemler küçük sub problemlere dönüşür
+
+3- Disadvantages of Recursion 
+
+-> anlaması zordur, algoritmasını kurmak zordur
+-> hafıza ve zaman açısından efektif değildir
+-> Debug etmesi zordur
+
+4- Recursive fonksiyon algoritması nasıl kurulur ?
+
+-> Base case'i bul 
+-> Problemin küçük sub problemlere nasıl bölüneceğinin bulunması 
+
+5- Recursive ile Iteration arasındaki ilişki ? 
+
+-> Iteration (for/while loops) ile çözülebilen problmeler, recursive kullanılarak da çözülebilir. 
+

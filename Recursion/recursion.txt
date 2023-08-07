@@ -1,0 +1,25 @@
+# Bir yapının yinelenmsi 
+
+Bir gün ormanda geziniyormuşuz gibi düşün. İlerledikçe önümüze büyük bir ağaç çıkmış. Bu ağacın dalları varmış, ve bu dalların her biri küçük ağaçlara benzermiş. Hatta bu küçük ağaçların da dalları varmış. İşte "Yineleme" de tam olarak böyle bir şey.
+
+Recursion, bir sorunu çözmek için aynı sorunun daha küçük bir versiyonunu tekrar ve tekrar kullanmaktır. Mesela, büyük ağacın dallarını düşünün. Her dal, küçük bir ağaç gibidir. Aynı şekilde, küçük ağaçların da dalları vardır. Bu şekilde, büyük ağaçdaki her dal, kendi içinde daha küçük ağaçlara sahiptir.
+
+Bir sorunu yinelemeyi kullanarak çözmek, büyük sorunu daha küçük parçalara bölmek anlamına gelir. Her küçük parça da aynı sorunun bir tür kopyası gibidir. Bu şekilde, her adımda sorunun boyutu küçülür ve daha kolay çözülebilir hale gelir.
+
+----------------------------------------------------------------------------------------------------
+
+-> Base Case (Temel Durum):
+Temel durum, yinelemeli bir fonksiyonun çalışmasını sonlandıran ve tekrarlamayı durduran noktadır. Bu, daha küçük parçalara bölünemeyen veya doğrudan çözülebilen en basit durumdur. Yani, yinelemenin durması gerektiği noktadır.
+
+Örneğin, bir sayının faktöriyelini hesaplayan bir yinelemeli fonksiyon düşünelim. Faktöriyel hesaplamak, bir sayının kendisiyle çarpılarak daha küçük sayılara bölünmesiyle elde edilir. İşte temel durum, sayının 1 veya 0 olduğu durumdur. Çünkü 1'in veya 0'ın faktöriyeli 1'dir ve daha küçük parçalara bölünemez.
+
+-> Recursive Case (Tekrarlamalı Durum):
+Tekrarlamalı durum, yineleme sürecinin devam ettiği ve daha büyük bir sorunu daha küçük parçalara bölen aşamadır. Bu adımda, aynı fonksiyon yine kendi içinde çağrılır ve sorun daha küçük bir versiyonuna dönüştürülür.
+
+Faktöriyel örneğine geri dönelim. Faktöriyeli hesaplamak için, bir sayının faktöriyeli, kendisi ile bir eksiğinin faktöriyelinin çarpımına eşittir. Bu durum, sayı daha küçük bir değere ulaşana kadar devam eder.
+
+-----------------------------------------------------------------------------------------------------
+
+Özetle, "base case" temelde yinelemeyi sonlandıran ve çözüme ulaşan durumdur. "Recursive case" ise yineleme sürecinin devam ettiği ve sorunu daha küçük parçalara böldüğümüz aşamadır. Bu iki kavram birlikte çalışarak yinelemeli fonksiyonların düzgün şekilde çalışmasını sağlar.
+
+
