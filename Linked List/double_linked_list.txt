@@ -1,0 +1,7 @@
+# Double Linked List 
+
+Bir tren düşün, bu trenin arkasında bir sürü renkli vagon var. Her vagon birbirine bir ip yardımıyla bağlı.
+
+Her bir vagon, hem önündeki vagonu hem de arkasındaki vagonu gösteren iki tane ipi bulunduruyor. Yani her vagonun hem bir önceki hem de bir sonraki vagon arkadaşı var. Bu sayede, hangi vagonu istediğini bulmak istediğinde, komşu vagonlara bakarak hemen bulabilirsin. Eğer yeni bir vagon eklemek istersen, onun iki ipini de yanındaki vagonların iplerine bağlayabilirsin. Bir vagonu çıkarmak istersen, yine sadece yanındaki vagonların iplerini çözerek o vagonu treninden çıkarabilirsin.
+
+Bu şekilde, trenini düzenli tutabilir ve istediğin vagona daha hızlı ulaşabilirsin! Çift yönlü bağlı listeler, bilgisayar programlarında bilgiyi daha kolay ve esnek bir şekilde düzenlemek için kullanılır.

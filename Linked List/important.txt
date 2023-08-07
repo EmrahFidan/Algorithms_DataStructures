@@ -1,0 +1,17 @@
+# Doubly Linked List 
+
+1- Linked List ? 
+
+-> her node'un bir değerinin yanında bir de refrans içerdiği alan yapısıdır. 
+
+2- Advantage & Desadvantage ?
+
+-> dinamik olması (advantage)
+-> fazladan alan bilgisi tutulur bu fazla lan kullanımına neden olur. 
+-> herhangi bir veriye erişmek kolay değildir. Big O(n) = lineer fazla. 
+-> Eleman eklmek O(1) yani çok hızlı, geriye kalan şeyle lineer 
+
+3- Linked List'de traversal ne demektir ? 
+
+-> Liste içerisinde her bir node'da olaşmak (navigating) 
+ 

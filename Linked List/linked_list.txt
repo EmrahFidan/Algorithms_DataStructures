@@ -1,0 +1,12 @@
+# Linked List
+
+Bir sürü oyuncak arabaya sahip olduğunu hayal et. Hepsi bir sıra halinde duruyor ve hepsini karıştırmadan düzenlemek istiyorsun. Onları sadece yerlere koymak yerine, onları bir ip yardımıyla birbirine bağlamaya karar veriyorsun. Her bir arabanın ufak bir ipi var ve bir ipin ucu diğer arabanın ipine bağlı.
+
+Bu şekilde, belirli bir arabayla oynamak istediğinde, sadece bir arabadan diğerine ipi takip ederek gidersin ve istediğin arabayı bulursun. Yeni bir araba eklemek istersen, onun ipini en son arabasının ipine bağlayabilirsin. Ve bir arabayı artık istemiyorsan, ipini çözüp arabayı sıradan çıkarabilirsin.
+
+Bu şekilde, oyuncak arabalarını düzgün bir şekilde sıralayabilir ve istediğin arabayı kolayca bulabilirsin! Bağlı listeler, bilgisayar programlarında bilgiyi düzenlemek ve yönetmek için benzer bir şekilde çalışır.
+
+Head -> giriş node
+Tail -> son node 
+
+pointer = referans, gösterge 
