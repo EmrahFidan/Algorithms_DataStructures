@@ -1,0 +1,36 @@
+->  O(1) olan bir veri yapısı elde debilirz. Hashing.
+-> Hash table değerlerin daha sonra kolay bulunabilmesini sağlayan bir data structure yapısıdır. 
+-> Tablodaki her bir pozisyon slots olarak adlandırılır. Bunu boş bir liste olaak düşünebilirsiniz.
+-> Hash Function: slotlar ve bu slotlardaki itemler arasındaki bağlantıyı (mapping) kurmaya yarayan fonksiyondur.
+-> Remainder: itemi slotlara yerleştirmek için kullanılan yöntemdir.
+-> collusion : aynı slotlara yerleştirilen itemlerdir.
+
+-> Amacımız hash Function kullanarak hash table üzerinde ki her bir slot için 1 tane value atamak. böylece O(n)'e ulaşabiliriz. 
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Hayal et, bir oyun oynuyorsun ve farklı karakterlerin farklı özellikleri var. Ama bu karakterleri hızlıca bulmak istiyorsun. İşte "Hashing" ve "Hash Table" adını verdiğimiz şey, bu tür durumlarda kullanılan bir yöntem.
+
+Adım adım anlatıyorum:
+
+Hashing Nedir?
+Hashing, özetle verileri belirli bir algoritma kullanarak kısa bir sayıya (anahtar) dönüştürme işlemidir. Bu sayıya "hash" denir. Her veri parçası için benzersiz bir hash üretilir. Yani her karakter için birer sayı elde edersin.
+
+Hash Table Nedir?
+Hash Table ise adeta bir sözlük gibi düşünülebilir. Bir tarafında kelimeler (veri) ve diğer tarafında anlamları (hash) bulunur. Hash Table, verileri hızlıca bulmak için kullanılır.
+
+Şimdi senin anlayacağın şekilde adım adım anlatayım:
+
+Önceki Harfle Başla: Diyelim ki farklı karakterlerin özelliklerini saklamak istiyorsun. Her bir karakteri bir harfe göre sırala. Örneğin, "A" harfi A ile başlayan karakterleri temsil eder, "B" harfi B ile başlayanları temsil eder ve böyle devam eder.
+
+Her Harfi Bir Sayıya Çevir: Şimdi her harfi bir sayıya çevir. Mesela, "A" harfini 1'e, "B" harfini 2'ye çevirebilirsin.
+
+Hash Üret: Her karakter için bu dönüştürülmüş sayıları kullanarak bir hash üret. Örneğin, "Ali" kelimesi için "A" harfinin sayı karşılığı olan 1'i alıp başka bir işlem yaparak bir hash üretirsin.
+
+Hash Table Oluştur: Şimdi bu hash değerlerini bir tabloda sakla. Her hash değeri için karakterin özelliklerini saklayan bir yer ayrılmış olur.
+
+Veriyi Bulma: Şimdi, aradığın karakterin hash değerine bakarak hızlıca onun özelliklerini bulabilirsin. Örneğin, "Ali" kelimesini aradığında hash değerini bulur ve hızlıca özelliklerine erişebilirsin.
+
+"Hashing" ve "Hash Table" yöntemi, verileri hızlıca saklamak ve bulmak için kullanılan harika bir yöntemdir.
+
+

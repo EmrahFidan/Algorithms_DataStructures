@@ -1,0 +1,26 @@
+1- Algoritma Ne Demektir?
+
+• Algoritma, girdi olarak bir deger ya da deger kümesi alan ve Clktl olarak bir deger ya da deger kümesi üreten iyi tammlanml> bir hesaplama
+prosedürüdür. Bir algoritma, girisi Clküya donü$üren bir hesaplama admlan dizisidir.
+
+2-  Binary search?
+
+• ilk Once arrayin ortasındaki degere bakanz.
+• Aradığımız deger bu ortadaki degerden büyükse upper halfın ortasındaki degere bakarız ve lower halfı iptal ederiz.
+• Daha sonra aradlélmz deger lower halfm ortaslnda ki degerder, büyükse bu seferde upper half in upper halftna bakanz.
+• Arama bu süreqleri tekrar ederek sürer gider
+
+3- Binary Search time complexity (Big O ) nedir?
+
+• Binary search recursion ile Gözülebiliyor, Recursion ile implement edildiöi zaman O(logn)'dir.
+• Binary Search ile Linked list de arama yaplllr
+• HaylL Binary search de arama ortadan basladlöl icin linked listte bir anda(yani 0(1) sürede) ortaya gidemez.
+
+4- Hash Algorithm nerelerde kullamllr bir örnek verin?
+
+• Şifre doğrulama
+
+5-  Algoritmada best case ve worst case senaryoları nedir ?
+
+• Best case: en hizlı, mesela binary search de aranan deåerin arrayin ortasinda olması
+• Worst case: en yavas
