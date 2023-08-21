@@ -1,0 +1,29 @@
+Random sıralamadaki Veri
+---------------------------------------------------------------- 
+en hızlı çalışan => Heap, Merge, Quick
+en yavaş çalışan => bubble, selection, insertion
+
+
+
+
+Sıralanmış Veri
+---------------------------------------------------------------- 
+en hızlı çalışan => insertion, bubble
+en yavaş çalışan => heap, selection
+
+
+
+
+Tersine sıralnamış Veri
+---------------------------------------------------------------- 
+en hızlı çalışan => shell, quick, heap
+en yavaş çalışan => insertion, bubble, selection
+
+
+
+
+birBz sıralı ve karmaşık Veri
+---------------------------------------------------------------- 
+en hızlı çalışan => heap, insertion
+en yavaş çalışan => selection, bubble
+

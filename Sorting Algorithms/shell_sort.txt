@@ -1,0 +1,15 @@
+Insertion Sort'un iyileştirilmiş bir versiyonu olarak düşünülür.
+
+Adım 1 - Aralıkları Belirleme:
+İlk adımda, dizinin elemanlarını sıralamak için kullanacağımız aralıkları belirleriz. Genellikle başlangıçta dizinin uzunluğunun yarısı kadar bir aralık seçilir ve bu aralık her adımda yarıya düşürülerek sıralama işlemi devam eder.
+
+Adım 2 - Alt Dizilerde Sıralama:
+Seçilen aralık boyunca, diziyi alt dizilere böleriz. Her alt diziyi, Insertion Sort gibi sıralarız. Ancak burada dikkat etmemiz gereken şey, alt dizilerin elemanları arasındaki belirli aralıklara göre sıralama yapmaktır.
+
+Adım 3 - Aralığı Daraltma:
+İlk adımda seçilen aralığı yarıya düşürerek daha küçük alt dizilere geçeriz. Bu adımı, seçilen aralık sıfır olduğunda yani tüm alt dizileri sıraladığımızda kadar tekrarlarız.
+
+Adım 4 - Son Sıralama:
+Aralıkları sürekli olarak daralttıktan sonra, son aşamada aralığı 1 yaparız. Bu, dizinin tüm elemanlarını tek bir alt dizide toplayarak son bir sıralama adımı yapmamızı sağlar. Bu sıralama genellikle nispeten hızlı olur çünkü elemanlar sıkça karşılaştırılır ve yer değiştirilir.
+
+Özetlemek gerekirse, Shell Sort büyük bir sıralama işlemini aşamalara böler ve her aşamada alt dizileri belirli aralıklarla sıralayarak sonunda tüm elemanları doğru sıraya getirir

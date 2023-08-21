@@ -1,0 +1,16 @@
+
+# Counting Sort -> Sayma Sıralaması 
+
+Sayma sıralaması, sıralanacak elemanların belirli bir aralıkta olduğu durumlarda oldukça etkili ve hızlı çalışabilen bir sıralama algoritmasıdır. Ancak, elemanların aralığı sınırlı ve elemanlar genellikle pozitif tam sayılar olmalıdır.
+
+1- Elemanları sıralayacağımız diziyi ve elemanların aralığını bilmemiz gerekiyor. Elemanlar genellikle sınırlı bir aralıkta (örneğin 0 ile 100 arası) ve pozitif tam sayılar olduğunda verimli sonuçlar alırız.
+
+2- İlk adım olarak, elemanların hangi değerden kaç tane olduğunu sayacağımız bir sayma dizisi (counting array) oluştururuz. Bu sayma dizisi, elemanların değerlerini indeks olarak kullanarak her değerin kaç tane olduğunu tutar.
+
+3- Oluşturduğumuz sayma dizisini kullanarak, sıralanacak dizideki elemanların hangi konumlarda olması gerektiğini belirleriz. Bu adımda, sayma dizisinin kümülatif toplamını hesaplarız. Bu, elemanlarımızı sıralarken kullanacağımız konumları gösterir.
+
+4- Sıralanmış elemanları tutacağımız bir sonuç dizisi oluştururuz.
+
+5- Orijinal diziyi baştan sona tarayarak her elemanın değerini kullanarak sayma dizisini güncelleriz. Bu adımda, elemanın sayma dizisindeki değeri 1 azaltılır. Ayrıca, bu değeri kullanarak sıralanmış sonuç dizisindeki konumunu belirleriz.
+
+6- Bu adımları tüm orijinal diziyi tarayarak yaparız. Sonuç olarak, sıralanmış elemanları içeren sonuç dizisini elde ederiz.

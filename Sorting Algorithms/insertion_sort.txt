@@ -1,0 +1,16 @@
+
+# Insertion Sort -> Ekleme Sıralaması 
+
+Ekleme sıralaması, temel ve basit bir sıralama algoritmasıdır. Adını, elemanları sıralarken bir elemanı uygun konumuna "eklemek" şeklindeki işleminden alır. İleriye doğru bir adım adım yaklaşımı vardır.
+
+1- Başlangıçta, dizinin ilk elemanını sıralanmış olarak kabul ederiz. Yani, dizinin ilk elemanını tek başına bir sıralanmış bölge olarak düşünebiliriz.
+
+2- Sıralanmış bölgeyi bir eleman artırarak başlarız. Bu elemanı sıralanmış bölge içinde uygun yerine eklemeye çalışırız.
+
+3- Ekleme adımını gerçekleştirirken, elemanı sıralanmış bölge içinde doğru konumuna yerleştirmek için sıralanmış bölgeyi tararız. Elemanın uygun konumu bulunduğunda, diğer elemanları kaydırmak ve boşluğu elemanın yerleşeceği yere açmak üzere işlem yaparız.
+
+4- Bu adım, sıralanmamış elemanlar bitene kadar tekrar eder. Yani, sıralanmış bölge sırayla genişlerken, sıralanmamış bölge daralır.
+
+5- Sonunda, tüm elemanlar sıralanmış bölgede yer alır ve sıralama işlemi tamamlanmış olur.
+
+Insertion Sort algoritması, küçük veri setleri veya nispeten sıralı veri setleri üzerinde iyi performans gösterebilir. Ancak büyük veri kümesi üzerinde kullanıldığında verimliliği düşebilir. Zaman karmaşıklığı, en iyi durumda "O(n)" (zaten sıralı veri) iken, en kötü durumda "O(n^2)" olabilir. Diğer daha gelişmiş sıralama algoritmaları, genellikle daha büyük veri setleri için daha iyi performans sağlar.

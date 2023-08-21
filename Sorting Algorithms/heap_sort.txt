@@ -1,0 +1,13 @@
+# Heap Sort -> Yığın Sıralaması
+
+Yığın sıralama, bir tam sayı dizisini veya veri koleksiyonunu sıralamak için kullanılan bir sıralama algoritmasıdır. Yığınlara dayalı bir veri yapısı olan "yığın" (heap), bu algoritmanın temelini oluşturur. Yığın sıralama, özellikle büyük veri setleri üzerinde etkili bir şekilde çalışabilir.
+
+1- Yığın Oluşturma (Heapify): İlk adımda, sıralanacak veri koleksiyonunu bir yığın yapısına dönüştürmemiz gerekiyor. Bu yapının "maksimum yığın" veya "minimum yığın" olabileceğini unutmamak önemlidir. Maksimum yığında her düğüm, alt düğümlerinden daha büyük veya eşit bir değere sahipken, minimum yığında her düğüm, alt düğümlerinden daha küçük veya eşit bir değere sahiptir.
+
+2- Yığın Sıralama: Yığın yapısını oluşturduktan sonra, en büyük (maksimum yığın) veya en küçük (minimum yığın) eleman kök düğümde olacaktır. Bu elemanı alarak sıralanmış sonuç dizisine ekleriz. Ardından, kök düğümü yığından çıkarırız ve yığını yeniden düzenleriz. Bu işlemi yığındaki tüm elemanlar sıralanana kadar tekrar ederiz.
+
+3- Sıralanmış Sonuç: Yığındaki tüm elemanlar sıralandığında, sonuç dizimiz de sıralanmış olur. Maksimum yığın kullanıyorsak, sonuç küçükten büyüğe doğru sıralanmış olur. Minimum yığın kullanıyorsak, sonuç büyükten küçüğe doğru sıralanmış olur.
+
+4- Yığın sıralama, en kötü durumda bile "O(n log n)" zaman karmaşıklığına sahiptir. Bu, yığınlardan kaynaklanan verimlilik nedeniyle büyük veri kümesi üzerinde iyi performans gösterdiği anlamına gelir. Ancak, diğer bazı sıralama algoritmaları gibi yığın sıralaması da ekstra bellek kullanımı gerektirebilir.
+
+Bu algoritma büyük veri setleri üzerinde etkili çalışabilir ve zaman karmaşıklığı "O(n log n)" olarak kabul edilir.

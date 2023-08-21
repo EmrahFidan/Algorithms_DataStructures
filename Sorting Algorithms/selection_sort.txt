@@ -1,0 +1,16 @@
+# Selection Sort -> Seçim Sıralaması 
+
+Seçim sıralaması, veriyi sıralamak için kullanılan basit ama pek verimli olmayan bir sıralama algoritmasıdır. Temel fikri, sıralanmış bölgeyi adım adım genişletmek ve her adımda en küçük (veya en büyük) elemanı bulup onu sıralanmış bölgenin sonuna yerleştirmektir
+
+1- Sıralanmış Bölge Başlatma: İlk adımda, sıralanmış bölgeyi boş olarak kabul ederiz. Bu bölge sıralanmış elemanları içerecektir.
+
+2- En Küçük Elemanı Bulma: Sıralanmış bölge dışındaki veriyi tararız ve bu tarama sırasında verinin en küçük elemanını buluruz.
+
+3- En Küçük Elemanı Sıralanmış Bölgeye Ekleme: En küçük elemanı bulduğumuzda, onu sıralanmış bölgenin sonuna ekleriz. Bu, sıralanmış bölgeyi bir eleman daha genişletir.
+
+4- Yukarıdaki Adımları Tekrarla: Bu adımları sıralanmamış bölge tükenene kadar tekrar ederiz. Yani, en küçük elemanı bulup sıralanmış bölgeye ekleriz. Bu adımlar tüm veriyi taramış olana kadar devam eder.
+
+Selection Sort algoritması, her bir elemanı sıralanmış bölgeye eklemek için tüm veriyi taramak zorunda olduğundan "O(n^2)" zaman karmaşıklığına sahiptir. Bu nedenle, büyük veri kümesi üzerinde kullanıldığında performansı düşük olabilir. Diğer daha hızlı sıralama algoritmaları genellikle tercih edilir.
+
+Kısacası, "Selection Sort" algoritması, sıralanmış bölgeyi adım adım genişleterek her adımda en küçük elemanı bulup sıralanmış bölgeye ekler.
+

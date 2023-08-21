@@ -1,0 +1,12 @@
+# Bubble Sort ->  Kabarcık Sıralama
+
+Kabarcık sıralama, temel bir sıralama algoritmasıdır. Adını, elemanları sıralarken en küçük elemanların yavaş yavaş yüzeye çıkan bir kabarcık gibi hareket etmesinden alır. Basit ama pek verimli olmayan bir algoritmadır. Kabarcık sıralama algoritması adım adım şu şekilde çalışır:
+
+1- Dizi elemanlarını baştan sona doğru çiftler halinde karşılaştırırız.
+2- Eğer bir çiftin elemanları sırasıyla birbirinden büyükse, bu elemanları yer değiştiririz. Yani, daha küçük elemanı daha önceki konuma getiririz.
+Bu işlemi dizinin sonuna kadar tekrar ederiz. Sonuç olarak, en büyük eleman dizinin en sonuna gelir.
+3- Şimdi dizinin sonundaki elemanı bir kenara alırız çünkü bu eleman artık sıralanmış bölüme dahil edilecektir.
+Kalan elemanlar üzerinde aynı işlemi tekrar ederiz, ancak son elemanı bir kenara alarak. Bu adım dizinin sondan bir önceki elemanını sıralanmış bölüme dahil eder.
+4- Bu işlem, dizideki tüm elemanlar sıralanana kadar devam eder.
+
+Kabarcık sıralama algoritması basit olmasına rağmen, büyük dizilerde çok fazla karşılaştırma ve yer değiştirme yaparak zaman alabilir. Diğer daha verimli sıralama algoritmaları, büyük veri kümesi üzerinde daha hızlı sonuçlar üretebilir.

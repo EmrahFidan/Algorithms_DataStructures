@@ -1,0 +1,13 @@
+# Merge Sort -> Birleştirme Sıralaması 
+
+Merge Sort, veriyi sıralamak için kullanılan etkili ve verimli bir sıralama algoritmasıdır. Temel fikri, veriyi daha küçük parçalara bölmek ve ardından bu parçaları birleştirerek sıralamaktır. Böl ve yönet yaklaşımına dayanır.
+
+1- Bölme Aşaması (Divide): İlk adımda, sıralanacak veriyi ikiye bölerek daha küçük alt dizilere ayırırız. Bu işlem, veriyi sürekli olarak ikiye bölmek ve alt dizilere ayrılmayacak kadar küçük parçalara gelene kadar devam eder.
+
+2- Birleştirme Aşaması (Merge): Daha sonra, bölünmüş alt dizileri sıralı bir şekilde birleştiririz. Bu adımda, iki alt dizi arasındaki elemanları karşılaştırarak daha büyük veya daha küçük olanı birleştirilen sonuç dizisine ekleriz. Her bir alt dizi içinde elemanlar zaten sıralı olduğundan, birleştirme işlemi oldukça kolaylaşır.
+
+3- Birleştirme Devam Eder: Bölme ve birleştirme adımları, alt dizilerin tek elemanlı hale gelene kadar sürer. Bu şekilde, her bir alt dizi tek bir elemandan oluşur ve birleştirme adımları sırasıyla gerçekleşir.
+
+4- Sıralanmış Sonuç: En sonunda, tüm alt diziler birleştirildiğinde, sıralanmış sonuç dizisine ulaşmış oluruz.
+
+5- Merge Sort, veriyi sürekli olarak ikiye böldüğü için "O(n log n)" zaman karmaşıklığına sahiptir. Bu, büyük veri kümesi üzerinde iyi performans gösterebilen etkili bir algoritmadır. Ancak bu algoritma ekstra bellek kullanımını gerektirebilir.

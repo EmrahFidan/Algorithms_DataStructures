@@ -1,0 +1,15 @@
+Elbette, "Quick Sort" veya Türkçe adıyla "Hızlı Sıralama" algoritmasını açıklayabilirim.
+
+Hızlı sıralama, veriyi sıralamak için kullanılan yaygın bir sıralama algoritmasıdır. Böl ve yönet mantığına dayanır ve veriyi hızlı bir şekilde sıralamak için parçalara ayırma ve ardından birleştirme işlemlerini gerçekleştirir.
+
+1- Pivot Seçimi: İlk adımda, veriyi parçalara bölmek için bir "pivot" eleman seçeriz. Bu pivot eleman, verinin bölünme noktasını belirlememize yardımcı olur. Genellikle dizinin ortasından veya rastgele bir elemandan pivot seçilir.
+
+2- Bölme İşlemi (Partitioning): Pivot elemanı seçtikten sonra, veriyi pivot elemanın solunda ve sağında olmak üzere iki alt diziye böleriz. Pivot elemandan küçük veya büyük olan elemanlar pivotun sol veya sağ tarafına yerleştirilir. Bu adım, elemanları pivot etrafında düzenlemek için özel bir yöntem olan "bölme işlemi" olarak adlandırılır.
+
+3- Alt Dizileri Sıralama: Şimdi, pivot elemanın sol ve sağ taraflarında oluşan alt dizilere sıralama işlemini rekürsif olarak uygularız. Yani her bir alt diziye aynı adımları tekrar uygulayarak alt dizileri sıralarız.
+
+4- Birleştirme: Son olarak, sıralanmış alt dizileri birleştirerek tam sıralanmış sonucu elde ederiz. Pivot elemanın sol tarafında bulunan alt dizi, pivot elemandan küçük elemanları içerirken, sağ tarafındaki alt dizi pivot elemandan büyük elemanları içerir.
+
+Quick Sort algoritması, ortalama durumda "O(n log n)" zaman karmaşıklığına sahiptir ve hızlı bir şekilde çalışabilir. Ancak en kötü durumda, pivotun seçimi nedeniyle "O(n^2)" zaman karmaşıklığına sahip olabilir. Bu nedenle, pivot seçimi önemlidir ve bazı varyasyonlar algoritmanın performansını artırabilir.
+
+Özetle, "Quick Sort" algoritması, pivot eleman kullanarak veriyi bölerek alt dizilere ayırır, bu alt dizileri rekürsif olarak sıralar ve sonunda sıralanmış sonuç elde eder.
