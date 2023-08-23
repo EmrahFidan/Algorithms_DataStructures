@@ -1,0 +1,21 @@
+"Trees" (ağaçlar), verileri düzenlemek ve depolamak için kullanılan bir veri yapısıdır. Bu veri yapısı, sanki gerçek dünyadaki ağaçlara benzer şekilde dalları ve yaprakları olan bir yapıya sahiptir. Şimdi "trees" konusundaki bazı anahtar kavramları basitçe açıklayayım:
+
+= Node (Düğüm): Bir ağacın temel birimi olan "düğüm" adı verilen noktalar. Her düğüm, veriyi içerebilir ve diğer düğümlerle ilişkilendirilmiş olabilir.
+
+= Root (Kök): Ağacın en üstündeki düğümdür. Diğer tüm düğümler, kök düğümünden başlayarak aşağı doğru uzanır.
+
+= Leaf (Yaprak): Ağacın en altındaki düğümlerdir. Yaprak düğümleri, genellikle daha fazla alt düğümü olmayan düğümlerdir.
+
+= Branch (Dal): Kök düğümünden başlayarak bir düğümden diğerine uzanan bağlantılara "dal" denir. Her dal, daha küçük dallara veya yapraklara ayrılabilir.
+
+= Parent (Ebeveyn) ve Child (Çocuk): Herhangi bir düğüm, kendisine bağlı olan düğümler açısından bir "ebeveyn" veya "çocuk" olabilir. Ebeveyn düğüm, altındaki düğümlere çocuk düğümler denir.
+
+= Depth (Derinlik): Bir düğümün köke olan uzaklığına "derinlik" denir. Kök düğümün derinliği genellikle 0 olarak kabul edilir.
+
+= Height (Yükseklik): Bir ağacın en uzun dalına olan en uzak yolun adıdır. Yani ağacın en üstünden en altına inen en uzun yolu ifade eder.
+
+= Binary Tree (İkili Ağaç): Her düğümün en fazla iki çocuğa sahip olabildiği ağaç türüdür. Bu çocuk düğümlere genellikle "sol çocuk" ve "sağ çocuk" denir.
+
+= Binary Search Tree (İkili Arama Ağacı): İkili ağaç türlerinden biridir. Bu tür ağaçlarda, her düğümün sol alt ağacındaki düğümler kendisinden daha küçük, sağ alt ağacındaki düğümler ise kendisinden daha büyük değerlere sahiptir.
+
+= Traversal (Dolaşma): Ağaç içindeki düğümleri sırayla ziyaret etme işlemine "dolaşma" denir. En yaygın dolaşma türleri, "Preorder", "Inorder" ve "Postorder" dolaşmadır.

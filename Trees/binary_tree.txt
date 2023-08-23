@@ -1,0 +1,23 @@
+"binary tree" (ikili ağaç), her düğümün en fazla iki çocuğa sahip olabileceği bir veri yapısıdır. İşte bir "binary tree" ile ilgili anahtar kavramları basitçe açıklayayım:
+
+Leaf (Yaprak): Hiçbir çocuğa sahip olmayan düğümlere "yaprak" denir. Yani, "binary tree" içindeki en alt düğümler yaprak düğümlerdir.
+
+Branch (Dal): Bir düğümden başlayarak çocuk düğümlere doğru uzanan bağlantılara "dal" denir.
+
+Left Child (Sol Çocuk) ve Right Child (Sağ Çocuk): Her düğümün en fazla iki çocuğu vardır. Solda bulunan çocuğa "sol çocuk" denir, sağda bulunan çocuğa ise "sağ çocuk" denir.
+
+Binary Search Tree (İkili Arama Ağacı): Bir tür "binary tree" olan ikili arama ağacı, düğümleri düzenlemek için bir kuralı izler. Sol çocuk, ebeveyninden daha küçük veya eşit bir değere sahipken, sağ çocuk daha büyük bir değere sahiptir. Bu tür ağaçlar verileri hızlı bir şekilde arama, ekleme ve çıkarma işlemleri için kullanışlıdır.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Nerelerde kullanılır ?
+
+Sıralama ve Arama İşlemleri: İkili ağaçlar, büyük listelerdeki verileri hızlıca sıralamak ve aramak için kullanılır. Verileri böyle bir ağaçta düzenlersen, istediğin veriyi daha hızlı bulabilirsin.
+
+Veritabanları: Veritabanlarında verilerin hızlıca saklanması ve bulunması için ikili ağaçlar kullanılabilir. Bu, verilerin düzenli bir şekilde depolanmasını ve etkili bir şekilde yönetilmesini sağlar.
+
+Oyun Geliştirme: Bilgisayar oyunlarında düşmanların veya nesnelerin konumlarını depolamak için ikili ağaçlar kullanılabilir. Oyunda hızlıca düşmanları bulmak veya nesneleri yerleştirmek için bu ağaçlar çok işe yarar.
+
+Huffman Kodlaması: Verileri daha az yer kaplayacak şekilde sıkıştırma işlemleri için kullanılır. Özellikle dosya sıkıştırma algoritmalarında ikili ağaçlar önemli bir rol oynar.
+
+Ağaç Yapıları: İkili ağaçlar, daha karmaşık ağaç yapılarının temelini oluşturur. Örneğin, AVL ağaçları veya Kırmızı-Siyah ağaçları gibi dengeli ağaç yapıları, ikili ağaçların geliştirilmiş versiyonlarıdır.

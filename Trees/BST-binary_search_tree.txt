@@ -1,0 +1,8 @@
+kili arama ağacı, verileri düzenlemek ve hızlıca aramak için özel olarak tasarlanmış bir tür ikili ağaçtır. Bu ağaç türünde her düğüm, bir değeri temsil eder. Ancak burada önemli olan, düğümlerin düzenli bir şekilde sıralanmış olmasıdır.
+
+Ağacın en üstünde bir kök düğüm bulunur. Kök düğümden başlayarak her düğüm, sol ve sağ olmak üzere iki çocuk düğümüne sahip olabilir. Sol çocuk, kendisinden daha küçük değere sahip olan düğümü temsil ederken, sağ çocuk daha büyük değere sahip olan düğümü temsil eder.
+
+İkili arama ağacının önemli bir özelliği, her düğümün sol alt ağacındaki değerlerin kök düğümündeki değerden küçük, sağ alt ağacındaki değerlerin ise kök düğümündeki değerden büyük olmasıdır. Bu özellik sayesinde, belirli bir değeri hızlıca bulabilirsiniz. Aradığınız değeri arama işlemi yaparken, her adımda sadece bir yarıya yönlendirilirsiniz, bu da işlemi hızlandırır.
+
+İkili arama ağaçları, büyük veri kümesinde hızlı arama yapmak veya sıralamak gibi işlemlerde oldukça etkili ve yaygın olarak kullanılan veri yapılarındandır.
+

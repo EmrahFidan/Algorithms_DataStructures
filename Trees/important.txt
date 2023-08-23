@@ -1,0 +1,7 @@
+1- Binary Tree Traversal ne demektir ?
+
+=> traversal için searching de denebilir. Yani tree üzerinde dolaşmak. 2 çeşittir:
+a. Binary First Traversal (BFT) -> roottan daşla ve soldan sağa
+b. Depth First  Traversal (DFT) -> left leaf ten başla 
+
+2- Big O Notion (BFT) -> O(n) , n = height
