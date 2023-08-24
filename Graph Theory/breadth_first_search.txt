@@ -1,0 +1,30 @@
+ "Breadth First Search" (Genişlik Öncelikli Arama) terimi, graf teorisi ve algoritma analizi alanında kullanılan bir kavramdır. Bu kavramı basit bir şekilde anlatmaya çalışayım:
+
+Hayal et, bir labirent olduğunu ve içinde hedefe ulaşman gerektiğini. Ancak labirent oldukça karışık ve birçok yol var. İşte "Breadth First Search" bu tür labirent sorunlarını çözmene yardımcı olur.
+
+Başlangıç noktasından başlayarak, etrafındaki tüm olası yolları birer birer keşfetmeye başlarsın. İlk olarak doğrudan erişebileceğin tüm noktaları kontrol edersin. Ardından bu noktalardan daha uzak noktalara doğru genişlersin. Yani, adım adım ilerlerken her adımda biraz daha uzak bölgelere yayılırsın.
+
+Örneğin, bir oyun haritasında A noktasından B noktasına nasıl ulaşabileceğini düşün. İlk olarak A noktasının komşularına bakarsın (yani A'dan doğrudan ulaşabileceğin yerlere). Sonra bu komşuların komşularına bakarsın, yani daha uzak noktalara doğru genişlersin. Bu şekilde hedefe giden yolu adım adım bulmuş olursun.
+
+Breadth First Search algoritması, tüm olası yolları denemek yerine, adım adım yaklaşarak en kısa yolu bulmanı sağlar. Bu da özellikle labirent gibi karmaşık yapılarda daha etkili bir yol bulmanı sağlar.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+B -> Başlangıç noktası
+H -> Hedef noktası
+X -> Duvar (geçilemez nokta)
+
+
+B  0  0  0  0
+X  X  0  X  X
+0  0  0  0  X
+X  X  X  0  H
+
+
+Breadth First Search algoritmasıyla bu labirenti çözmek istediğinde şu şekilde ilerlersin:
+
+Başlangıç noktasını işaretlersin (zaman adımı: 0).
+Başlangıç noktasının komşularını keşfetmeye başlarsın (zaman adımı: 1).
+Komşuların komşularını keşfetmeye devam edersin (zaman adımı: 2).
+Bu şekilde adım adım genişleyerek ilerlersin, her adımda uzaklaşırsın.
+Sonunda hedef noktasına olan en kısa yolu bulmuş olursun.

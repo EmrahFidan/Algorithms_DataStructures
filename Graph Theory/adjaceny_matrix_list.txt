@@ -1,0 +1,14 @@
+Bitişiklik Matrisi (Adjacency Matrix):
+
+Hayal edin ki bir grafınız var, yani noktalar ve aralarındaki bağlantılar. Bitişiklik matrisi, bu bağlantıları matematiksel bir tablo şeklinde gösterir. Matrisin satırları ve sütunları düğümleri temsil eder. Eğer iki düğüm arasında bir kenar varsa (yani bağlantı varsa), ilgili hücrede bir sayı (genellikle 1) bulunur. Eğer aralarında bağlantı yoksa, hücrede genellikle 0 bulunur.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Bitişiklik Listesi (Adjacency List):
+
+Bu yöntemde, her düğüm için bir liste oluşturursunuz. Her düğümün bağlı olduğu diğer düğümler bu listeye eklenir. Yani her düğümün yanında bağlı olduğu düğümler listelenir.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Her iki yöntem de farklı durumlar ve graf türleri için avantajlı olabilir. Bitişiklik matrisi daha çok küçük graf yapılarında kullanışlı olabilirken, bitişiklik listesi daha büyük ve seyrek graf yapıları için daha etkili olabilir.
+

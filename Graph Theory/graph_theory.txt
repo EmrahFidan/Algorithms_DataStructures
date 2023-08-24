@@ -1,0 +1,8 @@
+Graf teorisi, noktaların (bu noktalara "düğüm" veya "nokta" da denir) çizgilerle (bu çizgilere "kenar" denir) birleştirildiği matematiksel bir konudur. Bir düğüm, genellikle bir şeyi veya bir durumu temsil ederken, kenarlar ise bu düğümler arasındaki ilişkiyi gösterir.
+
+Günlük yaşamımızda graf teorisi örnekleri görebiliriz. Mesela bir arkadaş çevresindeki ilişkileri düşünelim: Arkadaşlarınızı düğümler ve aranızdaki ilişkileri de kenarlar olarak düşünebilirsiniz. Eğer siz ve bir arkadaşınız birbirinize doğrudan bağlıysanız (direkt arkadaşsanız), bu durumu bir kenarla gösterebilirsiniz. Aynı şekilde diğer arkadaşlarınızla da ilişkileri gösterebilirsiniz. Graf teorisi, bu tür ilişkileri ve bağlantıları daha iyi anlamamıza yardımcı olur.
+
+Ayrıca, haritalar da graf teorisiyle ilişkilendirilebilir. Şehirleri düğümler ve bu şehirler arasındaki yolları kenarlar olarak düşünebilirsiniz. Bu şekilde, en kısa yolun nasıl bulunabileceğini veya bir yerden diğerine nasıl gidilebileceğini anlamak daha kolay hale gelir.
+
+Graf teorisi, bilgisayar biliminde de çok önemlidir. Özellikle ağ yapıları, sosyal medya analizi, yol bulma algoritmaları gibi konularda kullanılır. Bu sayede bilgisayarlar, karmaşık bağlantıları daha iyi yönetebilir.
+

@@ -1,0 +1,31 @@
+Deep First Search (DFS), Türkçe'de Derinlik Öncelikli Arama olarak da adlandırılan bir algoritmadır. Bu algoritma, genellikle graf gibi yapıları gezme ve keşfetme işlemlerinde kullanılır.
+
+Bir örnekle açıklamak gerekirse, bir labirent düşünün. Bu labirentin her bir hücresi bir noktayı temsil eder ve bu noktalar komşu hücrelerle bağlantılıdır. DFS, labirentin içinde bir başlangıç noktasından başlayarak ilerler. Şu adımları izler:
+
+Başlangıç noktasına git.
+Eğer bu nokta ziyaret edilmemişse, ziyaret et ve üzerinde işaretle.
+Eğer bu noktanın komşularından henüz ziyaret edilmemiş olanları varsa, bir tanesini seç.
+Seçilen komşu noktaya git ve bu noktayı ziyaret et.
+Bu işlemi ziyaret edilmemiş komşu nokta kalmayana kadar tekrarla.
+Eğer ziyaret edilmemiş komşu nokta kalmazsa, geriye dön ve önceki adıma geri dön.
+Bu adımlar sayesinde DFS, labirentin içindeki tüm noktaları bir şekilde ziyaret eder. Algoritma, derinlemesine ilerlediği için ismini "Derinlik Öncelikli Arama" olarak alır.
+
+DFS algoritması genellikle ağaç yapıları, grafikler, ve labirentler gibi veri yapılarında kullanılır. Amacı, tüm veriyi keşfetmek ve gezinmek olduğu için, gezgin satıcı problemleri gibi optimizasyon sorunlarında da kullanılabilir.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+ A  --  B   --  C
+        |       |
+        D   --  E
+        
+Başlangıç düğümü olarak A'yı seçelim ve DFS algoritmasıyla ağı gezelim:
+
+A düğümü ziyaret edilir.
+A'nın komşularından B ziyaret edilir.
+B'nin komşusu C ziyaret edilir.
+C'nin komşusu E ziyaret edilir.
+E'nin komşusu D ziyaret edilir.
+D'nin komşusu B'yi ziyaret ederiz, ancak B zaten ziyaret edildiği için bu adım atlanır.
+E'nin diğer komşusu D ziyaret edilir, ancak D zaten ziyaret edildiği için bu adım da atlanır.
+
+DFS sonucunda bu ağda gezdiğimizde, arkadaş ilişkileri sırasıyla A -> B -> C -> E -> D şeklinde bulunur.

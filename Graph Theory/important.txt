@@ -1,0 +1,11 @@
+Graph => Node ve Edge'lerden oluşan bir yapı.
+
+neden kullanmalıyız? => Karmaşık problemleri anlaşılır hale getirmek ve problem tipine göre diğer veri yapılarından hızlı ve effective olduğu durumlar. 
+
+Undirected edge'ler belirli bir yönü göstermez.
+Directed edeg2ler belirli bir yönü gösterir.
+
+Weighted Edge => Bir graph üstünde ki edeg'lerin belirli bir weight yada cost'larının olması demektir.
+
+Tree Graph'ın özelleşmiş halidir. 
+
