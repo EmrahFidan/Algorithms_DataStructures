@@ -1,0 +1,11 @@
+-> Dinamik programlamayı ele alalım. Dinamik programlama, karmaşık problemleri daha küçük alt problemlere bölmek ve bu alt problemlerin çözümlerini saklayarak tekrar tekrar kullanarak daha verimli bir şekilde çözmek için kullanılan bir tekniktir.
+
+-> Dinamik programlama, genellikle özyinelemeli (recursive) bir yaklaşıma dayanır, ancak gereksiz hesaplamaları önlemek ve performansı artırmak için alt problemlerin sonuçları saklanır.
+
+-> Örnek olarak, Fibonacci sayılarını düşünelim. Fibonacci serisi, her sayının önceki iki sayının toplamı olduğu bir seridir (0, 1, 1, 2, 3, 5, 8, ...). Diyelim ki, 6. Fibonacci sayısını hesaplamamız gerekiyor. Eğer sadece recursive bir yaklaşım kullanırsak, aynı hesaplamaları tekrar tekrar yapmamız gerekebilir. Ancak dinamik programlama ile daha verimli bir yol izleyebiliriz. Önce 0. ve 1. Fibonacci sayılarını hesaplayarak başlayabiliriz, sonra sırayla diğer sayıları hesaplayarak sonuca daha hızlı ulaşabiliriz.
+
+-> Recursive yaklaşıma gelince, bu yöntemde bir problemi çözmek için aynı problemi daha küçük alt problemlere bölerek çözmeye çalışırız. Özyinelemeli fonksiyonlar kullandığımızda, bir problemi çözmek için aynı fonksiyonu tekrar tekrar çağırabiliriz. Örneğin, faktöriyel hesaplama gibi basit bir problemi ele alalım. Faktöriyel, bir sayının kendisi ile 1 arasındaki tüm pozitif tamsayıların çarpımıdır. Yani 5 faktöriyel (5!) = 5 * 4 * 3 * 2 * 1 = 120 şeklindedir. Recursive yaklaşımda, 5 faktöriyelini hesaplarken 5'i 4 faktöriyelini hesaplamak için kullanabiliriz, 4 faktöriyelini hesaplarken de 4'ü 3 faktöriyelini hesaplamak için kullanabiliriz ve bu alt problemleri çözerek sonuca ulaşabiliriz.
+
+-> Genel olarak, dinamik programlama alt problemleri saklayarak gereksiz hesaplamaları önlerken, recursive yaklaşım problemi daha küçük alt problemlere bölerek çözmeye çalışır.
+
+-> Kısacası, dinamik programlama alt problemleri optimize ederek tekrarlayan hesaplamaları önlemek ve daha etkili bir çözüm elde etmek için kullanılan güçlü bir algoritma tasarlama tekniğidir. Bu teknik, birçok algoritma ve problemin temelinde yatar ve veri yapılarıyla birlikte kullanılarak çok çeşitli sorunların çözümünde yardımcı olabilir.

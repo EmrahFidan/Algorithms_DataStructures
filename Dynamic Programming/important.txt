@@ -1,0 +1,9 @@
+1 - Dynamic Programming yaklaşımını ne zaman kullanırız ? 
+
+= Eğer çözümünüz sub problemlere bölünebiliyorsa 
+
+------------------------------------------------------------------------------------------------------------------------
+
+2 - Memoization nedir ?
+
+= Bir değeri her seferinde hesaplanmaktansa, bir kere hesaplayıp bir yerde depolayıp daha sonra başka yerde kullanılmaya verilen addır. 
